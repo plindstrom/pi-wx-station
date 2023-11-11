@@ -1,5 +1,6 @@
 # pi-wx-station
 ![Built with Python](https://img.shields.io/badge/Built_with-Python-blue?logo=python)
+![CC BY SA 4.0 Deed License](https://img.shields.io/badge/license-CC_BY_SA_4.0_Deed-orange)
 
 
 This repository contains the scripts used to gather weather data on a Raspberry Pi, store the data in a database, and display the weather data on a locally hosted web site.
