@@ -5,26 +5,26 @@
 
 This repository contains the scripts used to gather weather data on a Raspberry Pi, store the data in a database, and display the weather data on a locally hosted web site.
 
-Everything is based on the original Raspberry Pi project [Build Your Own Weather Station](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station).  The project is also available on GitHub: https://github.com/raspberrypilearning/build-your-own-weather-station.
+Everything here is based on the original Raspberry Pi project [Build Your Own Weather Station](https://projects.raspberrypi.org/en/projects/build-your-own-weather-station).  The project is also available on GitHub: https://github.com/raspberrypilearning/build-your-own-weather-station.  I recommend using the original documentation for more comprehensive information on how to build the weather station, plus I did not include all the sensors that are included in the original project (ground temperature and air quality).
 
 ## Supplies
-I purchased the following equipment for the weather station.  This was purchased in 2020, so availability and prices have likely changed.
+I purchased the following equipment for an outdoor headless weather station, and an indoor weather display station (which also has a BME280 to read inside temperature and humidity).  Everything was purchased in 2020, so availability and prices have likely changed.
 
-| Part | Price |
-| ---- | ----- |
-| Raspberry Pi 4 Model B 4GB | $49.99 |
-| Raspberry Pi Power supply | $7.99 |
-| Micro HDMI cable | $9.98 |
-| 32GB microSD Card w/ Adapter | $12.99 |
-| Adafruit BME280 - Humidity, Pressure, Temperature Sensor | $19.95 |
-| SK-28 Enclosure with Knockouts | $33.36 |
-| SK-11 Enclosure with Knockouts | $9.18 |
-| Vent Plug | $3.44 |
-| Inland 400 Tie-Point Breadboard |  |
-| Inland 30CM 40-PIN F-F Jumper Wire |  |
-| Inland 30CM 40-PIN F-M Jumper Wire |  |
-| SparkFun Weather Meter Kit SEN-15901 | $69.95 |
-| SparkFun RJ11 Breakout BOB-14021 | $1.95 |
+| Part | Qty | Price |
+| ---- | --- | ----- |
+| Raspberry Pi 4 Model B 4GB | 2 | $49.99 |
+| Raspberry Pi Power supply | 2 | $7.99 |
+| Micro HDMI cable | 1 | $9.98 |
+| 32GB microSD Card w/ Adapter | 2 | $12.99 |
+| Adafruit BME280 - Humidity, Pressure, Temperature Sensor | 2 | $19.95 |
+| SK-28 Enclosure with Knockouts | 1 | $33.36 |
+| SK-11 Enclosure with Knockouts | 1 | $9.18 |
+| Vent Plug | 1 | $3.44 |
+| Inland 400 Tie-Point Breadboard | 1 |  |
+| Inland 30CM 40-PIN F-F Jumper Wire | 1 |  |
+| Inland 30CM 40-PIN F-M Jumper Wire | 1 |  |
+| SparkFun Weather Meter Kit SEN-15901 | 1 | $69.95 |
+| SparkFun RJ11 Breakout BOB-14021 | 1 | $1.95 |
 
 ## Connecting the Sensors
 ![Diagram of Sensor Connections](https://github.com/plindstrom/pi-wx-station/blob/main/docs/Connections.svg)
