@@ -20,18 +20,20 @@ I purchased the following equipment for an outdoor headless weather station, and
 | SK-28 Enclosure with Knockouts | 1 | $33.36 |
 | SK-11 Enclosure with Knockouts | 1 | $9.18 |
 | Vent Plug | 1 | $3.44 |
-| Inland 400 Tie-Point Breadboard | 1 |  |
-| Inland 30CM 40-PIN F-F Jumper Wire | 1 |  |
-| Inland 30CM 40-PIN F-M Jumper Wire | 1 |  |
+| Inland 400 Tie-Point Breadboard | 1 | $2.99 |
+| Inland 30CM 40-PIN F-F Jumper Wire | 1 | $2.99 |
+| Inland 30CM 40-PIN F-M Jumper Wire | 1 | $2.99 |
 | SparkFun Weather Meter Kit SEN-15901 | 1 | $69.95 |
 | SparkFun RJ11 Breakout BOB-14021 | 1 | $1.95 |
+| Element 14 7" Touchscreen Display 49Y1712 | 1 | $59.99 |
+| Multicomp Pro Raspberry Pi 4 Touchscreen Case ASM-1900147-21 | 1 | $14.99 |
 
 ## Connecting the Sensors
 ![Diagram of Sensor Connections](https://github.com/plindstrom/pi-wx-station/blob/main/docs/Connections.svg)
 
 After the sensors are connected as shown above, you can test the individual sensors to make sure everything is working as expected using some simple test scripts.
 
-## Test the BME280
+### Test the BME280
 The BME280 measures humidity, pressure and temperature.  It requires an additional Python library which will need to be installed before testing.
 
 Download the Raspberry Pi Foundation weather station data logging code:
